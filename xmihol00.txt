@@ -1,0 +1,371 @@
+
+==================================================================================================
+Zadani:		VUT, FIT, IZU, projekt 3
+Autor:		David Mihola
+Login:		xmihol00
+Kontakt:	xmihol00@stud.fit.vutbr.cz
+Datum:		24. 4. 2021
+==================================================================================================
+
+Pocatecni stredove body:
+ [[-3,  4,  1],
+ [ 5,  0, -3],
+ [-1, -1,  1]]
+
+Body:
+[[ 0, -1, -2],
+ [-3, -1, -3],
+ [ 1, -3,  2],
+ [-2, -2,  2],
+ [ 1,  2, -4],
+ [ 0, -4,  3],
+ [ 1,  0, -3],
+ [-3,  0,  0],
+ [-2,  2, -4],
+ [-2,  4,  3],
+ [ 3, -2,  4],
+ [ 2, -5, -4]]
+
+
+============================================ vypocet ============================================
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [ 0, -1, -2] je: 6.5574
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [ 0, -1, -2] je: 5.1962
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [ 0, -1, -2] je: 3.1623
+	Minimalni Euklidovska vdalenost = 3.1623 bodu [ 0, -1, -2] je od stredoveho bodu [-1, -1,  1]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [-3, -1, -3] je: 6.4031
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [-3, -1, -3] je: 8.0623
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [-3, -1, -3] je: 4.4721
+	Minimalni Euklidovska vdalenost = 4.4721 bodu [-3, -1, -3] je od stredoveho bodu [-1, -1,  1]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [ 1, -3,  2] je: 8.1240
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [ 1, -3,  2] je: 7.0711
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [ 1, -3,  2] je: 3.0000
+	Minimalni Euklidovska vdalenost = 3.0000 bodu [ 1, -3,  2] je od stredoveho bodu [-1, -1,  1]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [-2, -2,  2] je: 6.1644
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [-2, -2,  2] je: 8.8318
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [-2, -2,  2] je: 1.7321
+	Minimalni Euklidovska vdalenost = 1.7321 bodu [-2, -2,  2] je od stredoveho bodu [-1, -1,  1]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [ 1,  2, -4] je: 6.7082
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [ 1,  2, -4] je: 4.5826
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [ 1,  2, -4] je: 6.1644
+	Minimalni Euklidovska vdalenost = 4.5826 bodu [ 1,  2, -4] je od stredoveho bodu [ 5,  0, -3]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [ 0, -4,  3] je: 8.7750
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [ 0, -4,  3] je: 8.7750
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [ 0, -4,  3] je: 3.7417
+	Minimalni Euklidovska vdalenost = 3.7417 bodu [ 0, -4,  3] je od stredoveho bodu [-1, -1,  1]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [ 1,  0, -3] je: 6.9282
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [ 1,  0, -3] je: 4.0000
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [ 1,  0, -3] je: 4.5826
+	Minimalni Euklidovska vdalenost = 4.0000 bodu [ 1,  0, -3] je od stredoveho bodu [ 5,  0, -3]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [-3,  0,  0] je: 4.1231
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [-3,  0,  0] je: 8.5440
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [-3,  0,  0] je: 2.4495
+	Minimalni Euklidovska vdalenost = 2.4495 bodu [-3,  0,  0] je od stredoveho bodu [-1, -1,  1]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [-2,  2, -4] je: 5.4772
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [-2,  2, -4] je: 7.3485
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [-2,  2, -4] je: 5.9161
+	Minimalni Euklidovska vdalenost = 5.4772 bodu [-2,  2, -4] je od stredoveho bodu [-3,  4,  1]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [-2,  4,  3] je: 2.2361
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [-2,  4,  3] je: 10.0499
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [-2,  4,  3] je: 5.4772
+	Minimalni Euklidovska vdalenost = 2.2361 bodu [-2,  4,  3] je od stredoveho bodu [-3,  4,  1]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [ 3, -2,  4] je: 9.0000
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [ 3, -2,  4] je: 7.5498
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [ 3, -2,  4] je: 5.0990
+	Minimalni Euklidovska vdalenost = 5.0990 bodu [ 3, -2,  4] je od stredoveho bodu [-1, -1,  1]
+
+Euklidovska vzdalenost stredoveho bodu [-3,  4,  1] a bodu [ 2, -5, -4] je: 11.4455
+Euklidovska vzdalenost stredoveho bodu [ 5,  0, -3] a bodu [ 2, -5, -4] je: 5.9161
+Euklidovska vzdalenost stredoveho bodu [-1, -1,  1] a bodu [ 2, -5, -4] je: 7.0711
+	Minimalni Euklidovska vdalenost = 5.9161 bodu [ 2, -5, -4] je od stredoveho bodu [ 5,  0, -3]
+
+Aktualni stredove body:
+ [[-3,  4,  1],
+ [ 5,  0, -3],
+ [-1, -1,  1]]
+Nove stredove body:
+ [[-2.0000,  3.0000, -0.5000],
+ [ 1.3333, -1.0000, -3.6667],
+ [-0.5714, -1.8571,  0.8571]]
+
+Stredovy bod [-2.0000,  3.0000, -0.5000] vypocitan jako aritmeticky prumer z hluku 1:
+[[-2,  2, -4],
+ [-2,  4,  3]]
+Stredovy bod [ 1.3333, -1.0000, -3.6667] vypocitan jako aritmeticky prumer z hluku 2:
+[[ 1,  2, -4],
+ [ 1,  0, -3],
+ [ 2, -5, -4]]
+Stredovy bod [-0.5714, -1.8571,  0.8571] vypocitan jako aritmeticky prumer z hluku 3:
+[[ 0, -1, -2],
+ [-3, -1, -3],
+ [ 1, -3,  2],
+ [-2, -2,  2],
+ [ 0, -4,  3],
+ [-3,  0,  0],
+ [ 3, -2,  4]]
+
+=================================== vypocet pro nove stredove body ===================================
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 0, -1, -2] je: 4.7170
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [ 0, -1, -2] je: 2.1344
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [ 0, -1, -2] je: 3.0372
+	Minimalni Euklidovska vdalenost = 2.1344 bodu [ 0, -1, -2] je od stredoveho bodu [ 1.3333, -1.0000, -3.6667]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [-3, -1, -3] je: 4.8218
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [-3, -1, -3] je: 4.3843
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [-3, -1, -3] je: 4.6379
+	Minimalni Euklidovska vdalenost = 4.3843 bodu [-3, -1, -3] je od stredoveho bodu [ 1.3333, -1.0000, -3.6667]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 1, -3,  2] je: 7.1589
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [ 1, -3,  2] je: 6.0185
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [ 1, -3,  2] je: 2.2542
+	Minimalni Euklidovska vdalenost = 2.2542 bodu [ 1, -3,  2] je od stredoveho bodu [-0.5714, -1.8571,  0.8571]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [-2, -2,  2] je: 5.5902
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [-2, -2,  2] je: 6.6500
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [-2, -2,  2] je: 1.8350
+	Minimalni Euklidovska vdalenost = 1.8350 bodu [-2, -2,  2] je od stredoveho bodu [-0.5714, -1.8571,  0.8571]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 1,  2, -4] je: 4.7170
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [ 1,  2, -4] je: 3.0368
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [ 1,  2, -4] je: 6.3983
+	Minimalni Euklidovska vdalenost = 3.0368 bodu [ 1,  2, -4] je od stredoveho bodu [ 1.3333, -1.0000, -3.6667]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 0, -4,  3] je: 8.0777
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [ 0, -4,  3] je: 7.4312
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [ 0, -4,  3] je: 3.0839
+	Minimalni Euklidovska vdalenost = 3.0839 bodu [ 0, -4,  3] je od stredoveho bodu [-0.5714, -1.8571,  0.8571]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 1,  0, -3] je: 4.9244
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [ 1,  0, -3] je: 1.2472
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [ 1,  0, -3] je: 4.5603
+	Minimalni Euklidovska vdalenost = 1.2472 bodu [ 1,  0, -3] je od stredoveho bodu [ 1.3333, -1.0000, -3.6667]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [-3,  0,  0] je: 3.2016
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [-3,  0,  0] je: 5.7639
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [-3,  0,  0] je: 3.1752
+	Minimalni Euklidovska vdalenost = 3.1752 bodu [-3,  0,  0] je od stredoveho bodu [-0.5714, -1.8571,  0.8571]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [-2,  2, -4] je: 3.6401
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [-2,  2, -4] je: 4.4969
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [-2,  2, -4] je: 6.3648
+	Minimalni Euklidovska vdalenost = 3.6401 bodu [-2,  2, -4] je od stredoveho bodu [-2.0000,  3.0000, -0.5000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [-2,  4,  3] je: 3.6401
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [-2,  4,  3] je: 8.9753
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [-2,  4,  3] je: 6.3983
+	Minimalni Euklidovska vdalenost = 3.6401 bodu [-2,  4,  3] je od stredoveho bodu [-2.0000,  3.0000, -0.5000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 3, -2,  4] je: 8.3815
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [ 3, -2,  4] je: 7.9092
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [ 3, -2,  4] je: 4.7595
+	Minimalni Euklidovska vdalenost = 4.7595 bodu [ 3, -2,  4] je od stredoveho bodu [-0.5714, -1.8571,  0.8571]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 2, -5, -4] je: 9.6047
+Euklidovska vzdalenost stredoveho bodu [ 1.3333, -1.0000, -3.6667] a bodu [ 2, -5, -4] je: 4.0689
+Euklidovska vzdalenost stredoveho bodu [-0.5714, -1.8571,  0.8571] a bodu [ 2, -5, -4] je: 6.3310
+	Minimalni Euklidovska vdalenost = 4.0689 bodu [ 2, -5, -4] je od stredoveho bodu [ 1.3333, -1.0000, -3.6667]
+
+Aktualni stredove body:
+ [[-2.0000,  3.0000, -0.5000],
+ [ 1.3333, -1.0000, -3.6667],
+ [-0.5714, -1.8571,  0.8571]]
+Nove stredove body:
+ [[-2.0000,  3.0000, -0.5000],
+ [ 0.2000, -1.0000, -3.2000],
+ [-0.2000, -2.2000,  2.2000]]
+
+Stredovy bod [-2.0000,  3.0000, -0.5000] vypocitan jako aritmeticky prumer z hluku 1:
+[[-2,  2, -4],
+ [-2,  4,  3]]
+Stredovy bod [ 0.2000, -1.0000, -3.2000] vypocitan jako aritmeticky prumer z hluku 2:
+[[ 0, -1, -2],
+ [-3, -1, -3],
+ [ 1,  2, -4],
+ [ 1,  0, -3],
+ [ 2, -5, -4]]
+Stredovy bod [-0.2000, -2.2000,  2.2000] vypocitan jako aritmeticky prumer z hluku 3:
+[[ 1, -3,  2],
+ [-2, -2,  2],
+ [ 0, -4,  3],
+ [-3,  0,  0],
+ [ 3, -2,  4]]
+
+=================================== vypocet pro nove stredove body ===================================
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 0, -1, -2] je: 4.7170
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 0, -1, -2] je: 1.2166
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [ 0, -1, -2] je: 4.3726
+	Minimalni Euklidovska vdalenost = 1.2166 bodu [ 0, -1, -2] je od stredoveho bodu [ 0.2000, -1.0000, -3.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [-3, -1, -3] je: 4.8218
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [-3, -1, -3] je: 3.2062
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [-3, -1, -3] je: 6.0266
+	Minimalni Euklidovska vdalenost = 3.2062 bodu [-3, -1, -3] je od stredoveho bodu [ 0.2000, -1.0000, -3.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 1, -3,  2] je: 7.1589
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 1, -3,  2] je: 5.6285
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [ 1, -3,  2] je: 1.4560
+	Minimalni Euklidovska vdalenost = 1.4560 bodu [ 1, -3,  2] je od stredoveho bodu [-0.2000, -2.2000,  2.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [-2, -2,  2] je: 5.5902
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [-2, -2,  2] je: 5.7341
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [-2, -2,  2] je: 1.8221
+	Minimalni Euklidovska vdalenost = 1.8221 bodu [-2, -2,  2] je od stredoveho bodu [-0.2000, -2.2000,  2.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 1,  2, -4] je: 4.7170
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 1,  2, -4] je: 3.2062
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [ 1,  2, -4] je: 7.5842
+	Minimalni Euklidovska vdalenost = 3.2062 bodu [ 1,  2, -4] je od stredoveho bodu [ 0.2000, -1.0000, -3.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 0, -4,  3] je: 8.0777
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 0, -4,  3] je: 6.8906
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [ 0, -4,  3] je: 1.9799
+	Minimalni Euklidovska vdalenost = 1.9799 bodu [ 0, -4,  3] je od stredoveho bodu [-0.2000, -2.2000,  2.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 1,  0, -3] je: 4.9244
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 1,  0, -3] je: 1.2961
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [ 1,  0, -3] je: 5.7723
+	Minimalni Euklidovska vdalenost = 1.2961 bodu [ 1,  0, -3] je od stredoveho bodu [ 0.2000, -1.0000, -3.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [-3,  0,  0] je: 3.2016
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [-3,  0,  0] je: 4.6347
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [-3,  0,  0] je: 4.1857
+	Minimalni Euklidovska vdalenost = 3.2016 bodu [-3,  0,  0] je od stredoveho bodu [-2.0000,  3.0000, -0.5000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [-2,  2, -4] je: 3.6401
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [-2,  2, -4] je: 3.8053
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [-2,  2, -4] je: 7.7019
+	Minimalni Euklidovska vdalenost = 3.6401 bodu [-2,  2, -4] je od stredoveho bodu [-2.0000,  3.0000, -0.5000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [-2,  4,  3] je: 3.6401
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [-2,  4,  3] je: 8.2632
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [-2,  4,  3] je: 6.5054
+	Minimalni Euklidovska vdalenost = 3.6401 bodu [-2,  4,  3] je od stredoveho bodu [-2.0000,  3.0000, -0.5000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 3, -2,  4] je: 8.3815
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 3, -2,  4] je: 7.7897
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [ 3, -2,  4] je: 3.6770
+	Minimalni Euklidovska vdalenost = 3.6770 bodu [ 3, -2,  4] je od stredoveho bodu [-0.2000, -2.2000,  2.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.0000,  3.0000, -0.5000] a bodu [ 2, -5, -4] je: 9.6047
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 2, -5, -4] je: 4.4587
+Euklidovska vzdalenost stredoveho bodu [-0.2000, -2.2000,  2.2000] a bodu [ 2, -5, -4] je: 7.1498
+	Minimalni Euklidovska vdalenost = 4.4587 bodu [ 2, -5, -4] je od stredoveho bodu [ 0.2000, -1.0000, -3.2000]
+
+Aktualni stredove body:
+ [[-2.0000,  3.0000, -0.5000],
+ [ 0.2000, -1.0000, -3.2000],
+ [-0.2000, -2.2000,  2.2000]]
+Nove stredove body:
+ [[-2.3333,  2.0000, -0.3333],
+ [ 0.2000, -1.0000, -3.2000],
+ [ 0.5000, -2.7500,  2.7500]]
+
+Stredovy bod [-2.3333,  2.0000, -0.3333] vypocitan jako aritmeticky prumer z hluku 1:
+[[-3,  0,  0],
+ [-2,  2, -4],
+ [-2,  4,  3]]
+Stredovy bod [ 0.2000, -1.0000, -3.2000] vypocitan jako aritmeticky prumer z hluku 2:
+[[ 0, -1, -2],
+ [-3, -1, -3],
+ [ 1,  2, -4],
+ [ 1,  0, -3],
+ [ 2, -5, -4]]
+Stredovy bod [ 0.5000, -2.7500,  2.7500] vypocitan jako aritmeticky prumer z hluku 3:
+[[ 1, -3,  2],
+ [-2, -2,  2],
+ [ 0, -4,  3],
+ [ 3, -2,  4]]
+
+=================================== vypocet pro nove stredove body ===================================
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [ 0, -1, -2] je: 4.1500
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 0, -1, -2] je: 1.2166
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [ 0, -1, -2] je: 5.0867
+	Minimalni Euklidovska vdalenost = 1.2166 bodu [ 0, -1, -2] je od stredoveho bodu [ 0.2000, -1.0000, -3.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [-3, -1, -3] je: 4.0689
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [-3, -1, -3] je: 3.2062
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [-3, -1, -3] je: 6.9552
+	Minimalni Euklidovska vdalenost = 3.2062 bodu [-3, -1, -3] je od stredoveho bodu [ 0.2000, -1.0000, -3.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [ 1, -3,  2] je: 6.4464
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 1, -3,  2] je: 5.6285
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [ 1, -3,  2] je: 0.9354
+	Minimalni Euklidovska vdalenost = 0.9354 bodu [ 1, -3,  2] je od stredoveho bodu [ 0.5000, -2.7500,  2.7500]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [-2, -2,  2] je: 4.6428
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [-2, -2,  2] je: 5.7341
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [-2, -2,  2] je: 2.7157
+	Minimalni Euklidovska vdalenost = 2.7157 bodu [-2, -2,  2] je od stredoveho bodu [ 0.5000, -2.7500,  2.7500]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [ 1,  2, -4] je: 4.9554
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 1,  2, -4] je: 3.2062
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [ 1,  2, -4] je: 8.2689
+	Minimalni Euklidovska vdalenost = 3.2062 bodu [ 1,  2, -4] je od stredoveho bodu [ 0.2000, -1.0000, -3.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [ 0, -4,  3] je: 7.2495
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 0, -4,  3] je: 6.8906
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [ 0, -4,  3] je: 1.3693
+	Minimalni Euklidovska vdalenost = 1.3693 bodu [ 0, -4,  3] je od stredoveho bodu [ 0.5000, -2.7500,  2.7500]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [ 1,  0, -3] je: 4.7140
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 1,  0, -3] je: 1.2961
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [ 1,  0, -3] je: 6.3934
+	Minimalni Euklidovska vdalenost = 1.2961 bodu [ 1,  0, -3] je od stredoveho bodu [ 0.2000, -1.0000, -3.2000]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [-3,  0,  0] je: 2.1344
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [-3,  0,  0] je: 4.6347
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [-3,  0,  0] je: 5.2321
+	Minimalni Euklidovska vdalenost = 2.1344 bodu [-3,  0,  0] je od stredoveho bodu [-2.3333,  2.0000, -0.3333]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [-2,  2, -4] je: 3.6818
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [-2,  2, -4] je: 3.8053
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [-2,  2, -4] je: 8.6241
+	Minimalni Euklidovska vdalenost = 3.6818 bodu [-2,  2, -4] je od stredoveho bodu [-2.3333,  2.0000, -0.3333]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [-2,  4,  3] je: 3.9016
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [-2,  4,  3] je: 8.2632
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [-2,  4,  3] je: 7.2024
+	Minimalni Euklidovska vdalenost = 3.9016 bodu [-2,  4,  3] je od stredoveho bodu [-2.3333,  2.0000, -0.3333]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [ 3, -2,  4] je: 7.9512
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 3, -2,  4] je: 7.7897
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [ 3, -2,  4] je: 2.8940
+	Minimalni Euklidovska vdalenost = 2.8940 bodu [ 3, -2,  4] je od stredoveho bodu [ 0.5000, -2.7500,  2.7500]
+
+Euklidovska vzdalenost stredoveho bodu [-2.3333,  2.0000, -0.3333] a bodu [ 2, -5, -4] je: 9.0123
+Euklidovska vzdalenost stredoveho bodu [ 0.2000, -1.0000, -3.2000] a bodu [ 2, -5, -4] je: 4.4587
+Euklidovska vzdalenost stredoveho bodu [ 0.5000, -2.7500,  2.7500] a bodu [ 2, -5, -4] je: 7.2715
+	Minimalni Euklidovska vdalenost = 4.4587 bodu [ 2, -5, -4] je od stredoveho bodu [ 0.2000, -1.0000, -3.2000]
+
+Stredove body se nezmenily.
+Finalni sredovy bod 1: [-2.3333,  2.0000, -0.3333]
+Finalni shluk 1:
+[[-3  0  0]
+ [-2  2 -4]
+ [-2  4  3]]
+Finalni stredovy bod 2: [ 0.2000, -1.0000, -3.2000]
+Finalni shluk 2:
+[[ 0 -1 -2]
+ [-3 -1 -3]
+ [ 1  2 -4]
+ [ 1  0 -3]
+ [ 2 -5 -4]]
+Finalni stredovy bod 3: [ 0.5000, -2.7500,  2.7500]
+Finalni shluk 3:
+[[ 1 -3  2]
+ [-2 -2  2]
+ [ 0 -4  3]
+ [ 3 -2  4]]

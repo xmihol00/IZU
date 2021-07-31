@@ -1,0 +1,360 @@
+
+Počáteční středové body:
+ [[ 2 -5 -4]
+ [-2 -2  2]
+ [ 4 -1  4]]
+
+Body:
+[[ 0 -1 -2]
+ [-3 -1 -3]
+ [ 1 -3  2]
+ [-2 -2  2]
+ [ 1  2 -4]
+ [ 0 -4  3]
+ [ 1  0 -3]
+ [-3  0  0]
+ [-2  2 -4]
+ [-2  4  3]
+ [ 3 -2  4]
+ [ 2 -5 -4]]
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [ 0 -1 -2] je: 4.898979485566356.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [ 0 -1 -2] je: 4.58257569495584.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [ 0 -1 -2] je: 7.211102550927978.
+	Minimální Euklidovská vdálenost = 4.58257569495584 bodu [ 0 -1 -2] je od středového bodu [-2 -2  2].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [-3 -1 -3] je: 6.48074069840786.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [-3 -1 -3] je: 5.196152422706632.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [-3 -1 -3] je: 9.899494936611665.
+	Minimální Euklidovská vdálenost = 5.196152422706632 bodu [-3 -1 -3] je od středového bodu [-2 -2  2].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [ 1 -3  2] je: 6.4031242374328485.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [ 1 -3  2] je: 3.1622776601683795.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [ 1 -3  2] je: 4.123105625617661.
+	Minimální Euklidovská vdálenost = 3.1622776601683795 bodu [ 1 -3  2] je od středového bodu [-2 -2  2].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [-2 -2  2] je: 7.810249675906654.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [-2 -2  2] je: 0.0.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [-2 -2  2] je: 6.4031242374328485.
+	Minimální Euklidovská vdálenost = 0.0 bodu [-2 -2  2] je od středového bodu [-2 -2  2].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [ 1  2 -4] je: 7.0710678118654755.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [ 1  2 -4] je: 7.810249675906654.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [ 1  2 -4] je: 9.055385138137417.
+	Minimální Euklidovská vdálenost = 7.0710678118654755 bodu [ 1  2 -4] je od středového bodu [ 2 -5 -4].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [ 0 -4  3] je: 7.3484692283495345.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [ 0 -4  3] je: 3.0.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [ 0 -4  3] je: 5.0990195135927845.
+	Minimální Euklidovská vdálenost = 3.0 bodu [ 0 -4  3] je od středového bodu [-2 -2  2].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [ 1  0 -3] je: 5.196152422706632.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [ 1  0 -3] je: 6.164414002968976.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [ 1  0 -3] je: 7.681145747868608.
+	Minimální Euklidovská vdálenost = 5.196152422706632 bodu [ 1  0 -3] je od středového bodu [ 2 -5 -4].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [-3  0  0] je: 8.12403840463596.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [-3  0  0] je: 3.0.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [-3  0  0] je: 8.12403840463596.
+	Minimální Euklidovská vdálenost = 3.0 bodu [-3  0  0] je od středového bodu [-2 -2  2].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [-2  2 -4] je: 8.06225774829855.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [-2  2 -4] je: 7.211102550927978.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [-2  2 -4] je: 10.44030650891055.
+	Minimální Euklidovská vdálenost = 7.211102550927978 bodu [-2  2 -4] je od středového bodu [-2 -2  2].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [-2  4  3] je: 12.083045973594572.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [-2  4  3] je: 6.082762530298219.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [-2  4  3] je: 7.874007874011811.
+	Minimální Euklidovská vdálenost = 6.082762530298219 bodu [-2  4  3] je od středového bodu [-2 -2  2].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [ 3 -2  4] je: 8.602325267042627.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [ 3 -2  4] je: 5.385164807134504.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [ 3 -2  4] je: 1.4142135623730951.
+	Minimální Euklidovská vdálenost = 1.4142135623730951 bodu [ 3 -2  4] je od středového bodu [ 4 -1  4].
+
+Euklidovská vzdálenost středového bodu [ 2 -5 -4] a bodu [ 2 -5 -4] je: 0.0.
+Euklidovská vzdálenost středového bodu [-2 -2  2] a bodu [ 2 -5 -4] je: 7.810249675906654.
+Euklidovská vzdálenost středového bodu [ 4 -1  4] a bodu [ 2 -5 -4] je: 9.16515138991168.
+	Minimální Euklidovská vdálenost = 0.0 bodu [ 2 -5 -4] je od středového bodu [ 2 -5 -4].
+
+Aktuální středové body:
+ [[ 2 -5 -4]
+ [-2 -2  2]
+ [ 4 -1  4]]
+Nové středové body:
+ [[ 1.33333333 -1.         -3.66666667]
+ [-1.375      -0.625       0.125     ]
+ [ 3.         -2.          4.        ]]
+
+Středový bod [ 1.33333333 -1.         -3.66666667] vypočítán z hluku 1:
+[[ 1  2 -4]
+ [ 1  0 -3]
+ [ 2 -5 -4]]
+Středový bod [-1.375 -0.625  0.125] vypočítán z hluku 2:
+[[ 0 -1 -2]
+ [-3 -1 -3]
+ [ 1 -3  2]
+ [-2 -2  2]
+ [ 0 -4  3]
+ [-3  0  0]
+ [-2  2 -4]
+ [-2  4  3]]
+Středový bod [ 3. -2.  4.] vypočítán z hluku 3:
+[[ 3 -2  4]]
+
+======================================= další kolo =======================================
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [ 0 -1 -2] je: 2.1343747458109497.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [ 0 -1 -2] je: 2.55868618630734.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [ 0 -1 -2] je: 6.782329983125268.
+	Minimální Euklidovská vdálenost = 2.1343747458109497 bodu [ 0 -1 -2] je od středového bodu [ 1.33333333 -1.         -3.66666667].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [-3 -1 -3] je: 4.384315479321968.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [-3 -1 -3] je: 3.5421568288261884.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [-3 -1 -3] je: 9.273618495495704.
+	Minimální Euklidovská vdálenost = 3.5421568288261884 bodu [-3 -1 -3] je od středového bodu [-1.375 -0.625  0.125].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [ 1 -3  2] je: 6.018490028422596.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [ 1 -3  2] je: 3.8466706383572795.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [ 1 -3  2] je: 3.0.
+	Minimální Euklidovská vdálenost = 3.0 bodu [ 1 -3  2] je od středového bodu [ 3. -2.  4.].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [-2 -2  2] je: 6.649979114420001.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [-2 -2  2] je: 2.407670035532278.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [-2 -2  2] je: 5.385164807134504.
+	Minimální Euklidovská vdálenost = 2.407670035532278 bodu [-2 -2  2] je od středového bodu [-1.375 -0.625  0.125].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [ 1  2 -4] je: 3.0368111930480994.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [ 1  2 -4] je: 5.4357037262897245.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [ 1  2 -4] je: 9.16515138991168.
+	Minimální Euklidovská vdálenost = 3.0368111930480994 bodu [ 1  2 -4] je od středového bodu [ 1.33333333 -1.         -3.66666667].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [ 0 -4  3] je: 7.4311656032026505.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [ 0 -4  3] je: 4.641861156906786.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [ 0 -4  3] je: 3.7416573867739413.
+	Minimální Euklidovská vdálenost = 3.7416573867739413 bodu [ 0 -4  3] je od středového bodu [ 3. -2.  4.].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [ 1  0 -3] je: 1.247219128924647.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [ 1  0 -3] je: 3.9745282738961616.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [ 1  0 -3] je: 7.54983443527075.
+	Minimální Euklidovská vdálenost = 1.247219128924647 bodu [ 1  0 -3] je od středového bodu [ 1.33333333 -1.         -3.66666667].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [-3  0  0] je: 5.763872155263527.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [-3  0  0] je: 1.7455300054711176.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [-3  0  0] je: 7.483314773547883.
+	Minimální Euklidovská vdálenost = 1.7455300054711176 bodu [-3  0  0] je od středového bodu [-1.375 -0.625  0.125].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [-2  2 -4] je: 4.496912521077347.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [-2  2 -4] je: 4.929186038282588.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [-2  2 -4] je: 10.246950765959598.
+	Minimální Euklidovská vdálenost = 4.496912521077347 bodu [-2  2 -4] je od středového bodu [ 1.33333333 -1.         -3.66666667].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [-2  4  3] je: 8.975274678557506.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [-2  4  3] je: 5.481502987320175.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [-2  4  3] je: 7.874007874011811.
+	Minimální Euklidovská vdálenost = 5.481502987320175 bodu [-2  4  3] je od středového bodu [-1.375 -0.625  0.125].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [ 3 -2  4] je: 7.909207011803114.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [ 3 -2  4] je: 6.003904979261414.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [ 3 -2  4] je: 0.0.
+	Minimální Euklidovská vdálenost = 0.0 bodu [ 3 -2  4] je od středového bodu [ 3. -2.  4.].
+
+Euklidovská vzdálenost středového bodu [ 1.33333333 -1.         -3.66666667] a bodu [ 2 -5 -4] je: 4.068851871911234.
+Euklidovská vzdálenost středového bodu [-1.375 -0.625  0.125] a bodu [ 2 -5 -4] je: 6.895424207400151.
+Euklidovská vzdálenost středového bodu [ 3. -2.  4.] a bodu [ 2 -5 -4] je: 8.602325267042627.
+	Minimální Euklidovská vdálenost = 4.068851871911234 bodu [ 2 -5 -4] je od středového bodu [ 1.33333333 -1.         -3.66666667].
+
+Aktuální středové body:
+ [[ 1.33333333 -1.         -3.66666667]
+ [-1.375      -0.625       0.125     ]
+ [ 3.         -2.          4.        ]]
+Nové středové body:
+ [[ 0.4        -0.4        -3.4       ]
+ [-2.5         0.25        0.5       ]
+ [ 1.33333333 -3.          3.        ]]
+
+Středový bod [ 0.4 -0.4 -3.4] vypočítán z hluku 1:
+[[ 0 -1 -2]
+ [ 1  2 -4]
+ [ 1  0 -3]
+ [-2  2 -4]
+ [ 2 -5 -4]]
+Středový bod [-2.5   0.25  0.5 ] vypočítán z hluku 2:
+[[-3 -1 -3]
+ [-2 -2  2]
+ [-3  0  0]
+ [-2  4  3]]
+Středový bod [ 1.33333333 -3.          3.        ] vypočítán z hluku 3:
+[[ 1 -3  2]
+ [ 0 -4  3]
+ [ 3 -2  4]]
+
+======================================= další kolo =======================================
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [ 0 -1 -2] je: 1.574801574802362.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [ 0 -1 -2] je: 3.75.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 0 -1 -2] je: 5.547772325697746.
+	Minimální Euklidovská vdálenost = 1.574801574802362 bodu [ 0 -1 -2] je od středového bodu [ 0.4 -0.4 -3.4].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [-3 -1 -3] je: 3.475629439396553.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [-3 -1 -3] je: 3.75.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [-3 -1 -3] je: 7.666666666666666.
+	Minimální Euklidovská vdálenost = 3.475629439396553 bodu [-3 -1 -3] je od středového bodu [ 0.4 -0.4 -3.4].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [ 1 -3  2] je: 6.023288138550239.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [ 1 -3  2] je: 5.006246098625197.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 1 -3  2] je: 1.0540925533894598.
+	Minimální Euklidovská vdálenost = 1.0540925533894598 bodu [ 1 -3  2] je od středového bodu [ 1.33333333 -3.          3.        ].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [-2 -2  2] je: 6.122091146005587.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [-2 -2  2] je: 2.75.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [-2 -2  2] je: 3.6209268304000717.
+	Minimální Euklidovská vdálenost = 2.75 bodu [-2 -2  2] je od středového bodu [-2.5   0.25  0.5 ].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [ 1  2 -4] je: 2.545584412271571.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [ 1  2 -4] je: 5.963430220938282.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 1  2 -4] je: 8.608781046763305.
+	Minimální Euklidovská vdálenost = 2.545584412271571 bodu [ 1  2 -4] je od středového bodu [ 0.4 -0.4 -3.4].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [ 0 -4  3] je: 7.353910524340095.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [ 0 -4  3] je: 5.528336096873995.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 0 -4  3] je: 1.6666666666666667.
+	Minimální Euklidovská vdálenost = 1.6666666666666667 bodu [ 0 -4  3] je od středového bodu [ 1.33333333 -3.          3.        ].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [ 1  0 -3] je: 0.824621125123532.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [ 1  0 -3] je: 4.956056900399752.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 1  0 -3] je: 6.716480559869962.
+	Minimální Euklidovská vdálenost = 0.824621125123532 bodu [ 1  0 -3] je od středového bodu [ 0.4 -0.4 -3.4].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [-3  0  0] je: 4.824935232725927.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [-3  0  0] je: 0.75.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [-3  0  0] je: 6.064468466220084.
+	Minimální Euklidovská vdálenost = 0.75 bodu [-3  0  0] je od středového bodu [-2.5   0.25  0.5 ].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [-2  2 -4] je: 3.4467375879228173.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [-2  2 -4] je: 4.8541219597369.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [-2  2 -4] je: 9.225568335398698.
+	Minimální Euklidovská vdálenost = 3.4467375879228173 bodu [-2  2 -4] je od středového bodu [ 0.4 -0.4 -3.4].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [-2  4  3] je: 8.128960573160631.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [-2  4  3] je: 4.534589286804263.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [-2  4  3] je: 7.753135566408671.
+	Minimální Euklidovská vdálenost = 4.534589286804263 bodu [-2  4  3] je od středového bodu [-2.5   0.25  0.5 ].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [ 3 -2  4] je: 8.0049984384758.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [ 3 -2  4] je: 6.896557112066861.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 3 -2  4] je: 2.1858128414340006.
+	Minimální Euklidovská vdálenost = 2.1858128414340006 bodu [ 3 -2  4] je od středového bodu [ 1.33333333 -3.          3.        ].
+
+Euklidovská vzdálenost středového bodu [ 0.4 -0.4 -3.4] a bodu [ 2 -5 -4] je: 4.907137658554118.
+Euklidovská vzdálenost středového bodu [-2.5   0.25  0.5 ] a bodu [ 2 -5 -4] je: 8.25.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 2 -5 -4] je: 7.31057073315377.
+	Minimální Euklidovská vdálenost = 4.907137658554118 bodu [ 2 -5 -4] je od středového bodu [ 0.4 -0.4 -3.4].
+
+Aktuální středové body:
+ [[ 0.4        -0.4        -3.4       ]
+ [-2.5         0.25        0.5       ]
+ [ 1.33333333 -3.          3.        ]]
+Nové středové body:
+ [[-0.16666667 -0.5        -3.33333333]
+ [-2.33333333  0.66666667  1.66666667]
+ [ 1.33333333 -3.          3.        ]]
+
+Středový bod [-0.16666667 -0.5        -3.33333333] vypočítán z hluku 1:
+[[ 0 -1 -2]
+ [-3 -1 -3]
+ [ 1  2 -4]
+ [ 1  0 -3]
+ [-2  2 -4]
+ [ 2 -5 -4]]
+Středový bod [-2.33333333  0.66666667  1.66666667] vypočítán z hluku 2:
+[[-2 -2  2]
+ [-3  0  0]
+ [-2  4  3]]
+Středový bod [ 1.33333333 -3.          3.        ] vypočítán z hluku 3:
+[[ 1 -3  2]
+ [ 0 -4  3]
+ [ 3 -2  4]]
+
+======================================= další kolo =======================================
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [ 0 -1 -2] je: 1.4337208778404378.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [ 0 -1 -2] je: 4.654746681256314.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 0 -1 -2] je: 5.547772325697746.
+	Minimální Euklidovská vdálenost = 1.4337208778404378 bodu [ 0 -1 -2] je od středového bodu [-0.16666667 -0.5        -3.33333333].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [-3 -1 -3] je: 2.8963578661637945.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [-3 -1 -3] je: 5.0.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [-3 -1 -3] je: 7.666666666666666.
+	Minimální Euklidovská vdálenost = 2.8963578661637945 bodu [-3 -1 -3] je od středového bodu [-0.16666667 -0.5        -3.33333333].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [ 1 -3  2] je: 6.004627844883942.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [ 1 -3  2] je: 4.96655480858378.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 1 -3  2] je: 1.0540925533894598.
+	Minimální Euklidovská vdálenost = 1.0540925533894598 bodu [ 1 -3  2] je od středového bodu [ 1.33333333 -3.          3.        ].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [-2 -2  2] je: 5.835713800003866.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [-2 -2  2] je: 2.70801280154532.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [-2 -2  2] je: 3.6209268304000717.
+	Minimální Euklidovská vdálenost = 2.70801280154532 bodu [-2 -2  2] je od středového bodu [-2.33333333  0.66666667  1.66666667].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [ 1  2 -4] je: 2.8382310609877335.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [ 1  2 -4] je: 6.708203932499369.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 1  2 -4] je: 8.608781046763305.
+	Minimální Euklidovská vdálenost = 2.8382310609877335 bodu [ 1  2 -4] je od středového bodu [-0.16666667 -0.5        -3.33333333].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [ 0 -4  3] je: 7.238016916869489.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [ 0 -4  3] je: 5.385164807134505.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 0 -4  3] je: 1.6666666666666667.
+	Minimální Euklidovská vdálenost = 1.6666666666666667 bodu [ 0 -4  3] je od středového bodu [ 1.33333333 -3.          3.        ].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [ 1  0 -3] je: 1.3123346456686353.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [ 1  0 -3] je: 5.773502691896258.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 1  0 -3] je: 6.716480559869962.
+	Minimální Euklidovská vdálenost = 1.3123346456686353 bodu [ 1  0 -3] je od středového bodu [-0.16666667 -0.5        -3.33333333].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [-3  0  0] je: 4.403281604540969.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [-3  0  0] je: 1.9148542155126762.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [-3  0  0] je: 6.064468466220084.
+	Minimální Euklidovská vdálenost = 1.9148542155126762 bodu [-3  0  0] je od středového bodu [-2.33333333  0.66666667  1.66666667].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [-2  2 -4] je: 3.1710495984067415.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [-2  2 -4] je: 5.830951894845301.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [-2  2 -4] je: 9.225568335398698.
+	Minimální Euklidovská vdálenost = 3.1710495984067415 bodu [-2  2 -4] je od středového bodu [-0.16666667 -0.5        -3.33333333].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [-2  4  3] je: 7.982620009885365.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [-2  4  3] je: 3.605551275463989.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [-2  4  3] je: 7.753135566408671.
+	Minimální Euklidovská vdálenost = 3.605551275463989 bodu [-2  4  3] je od středového bodu [-2.33333333  0.66666667  1.66666667].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [ 3 -2  4] je: 8.127456893491072.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [ 3 -2  4] je: 6.4031242374328485.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 3 -2  4] je: 2.1858128414340006.
+	Minimální Euklidovská vdálenost = 2.1858128414340006 bodu [ 3 -2  4] je od středového bodu [ 1.33333333 -3.          3.        ].
+
+Euklidovská vzdálenost středového bodu [-0.16666667 -0.5        -3.33333333] a bodu [ 2 -5 -4] je: 5.038738819276991.
+Euklidovská vzdálenost středového bodu [-2.33333333  0.66666667  1.66666667] a bodu [ 2 -5 -4] je: 9.1104335791443.
+Euklidovská vzdálenost středového bodu [ 1.33333333 -3.          3.        ] a bodu [ 2 -5 -4] je: 7.31057073315377.
+	Minimální Euklidovská vdálenost = 5.038738819276991 bodu [ 2 -5 -4] je od středového bodu [-0.16666667 -0.5        -3.33333333].
+
+Středové body se nezměnily.
+Středový bod 1: [-0.16666667 -0.5        -3.33333333]
+Finální shluk 1:
+[[ 0 -1 -2]
+ [-3 -1 -3]
+ [ 1  2 -4]
+ [ 1  0 -3]
+ [-2  2 -4]
+ [ 2 -5 -4]]
+Středový bod 2: [-2.33333333  0.66666667  1.66666667]
+Finální shluk 2:
+[[-2 -2  2]
+ [-3  0  0]
+ [-2  4  3]]
+Středový bod 3: [ 1.33333333 -3.          3.        ]
+Finální shluk 3:
+[[ 1 -3  2]
+ [ 0 -4  3]
+ [ 3 -2  4]]
